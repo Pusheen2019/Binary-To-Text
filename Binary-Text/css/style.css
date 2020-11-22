@@ -1,0 +1,17 @@
+h1 { font-size:1.6rem; }
+   h2 { font-size:1.4rem; }
+   h4 { font-size:1.2rem; }
+ 
+   .calc { background:#f9593d; padding:20px; }
+   .calc button i { vertical-align:middle; }
+   .calc button img { filter: invert(1); }
+   .calc textarea { font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; }
+	.dtable th { position:sticky; top:0; background:#f9593d; }
+	.dtable td { width:90px; }
+	.dtable tr td { text-align:center;}
+   #bin.draghover { border: 10px dashed #888; }
+	@media all and (max-width: 320px) {
+		.calc button img { display:none; }
+	}
+	
+   .mono { font-family: monospace; }
